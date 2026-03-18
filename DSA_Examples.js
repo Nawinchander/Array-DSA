@@ -38,6 +38,32 @@ function removeDuplicates(arr) {
 console.log(removeDuplicates([1, 2, 2, 3, 4, 4]));
 
 
+//// Sum of Array
+
+function sumArray(arr) {
+  let sum = 0;
+
+  for (let num of arr) {
+    sum += num;
+  }
+
+  return sum;
+}
+
+console.log(sumArray([1, 2, 3, 4])); // 10
+
+/// Rotate Array (Right Rotation)
+
+function rotateArray(arr, k) {
+  k = k % arr.length;
+
+  return arr.slice(-k).concat(arr.slice(0, -k));
+}
+
+console.log(rotateArray([1, 2, 3, 4, 5], 2));
+// [4,5,1,2,3]
+
+
 
 
 
