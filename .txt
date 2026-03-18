@@ -1,0 +1,8 @@
+An array is a linear data structure that stores elements in contiguous memory locations and allows access using an index (0-based in JS).
+
+
+
+
+
+
+
