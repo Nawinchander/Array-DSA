@@ -10,21 +10,21 @@ for (let i = 0; i < arr.length; i++) {
 
 //// Insertion
 
-let arr = [10, 20, 40];
+let arr4 = [10, 20, 40];
 
 // insert 30 at index 2
-arr.splice(2, 0, 30);
+arr4.splice(2, 0, 30);
 
-console.log(arr); // [10,20,30,40]
+console.log(arr4); // [10,20,30,40]
 
 /// Deletion
 
-let arr = [10, 20, 30, 40];
+let arr3 = [10, 20, 30, 40];
 
 // delete element at index 1
 arr.splice(1, 1);
 
-console.log(arr); // [10,30,40]
+console.log(arr3); // [10,30,40]
 
 
 /// Searching
@@ -62,10 +62,10 @@ console.log(binarySearch([10, 20, 30, 40], 30)); // 2
 
 //// Updating
 
-let arr = [10, 20, 30];
+let arr2 = [10, 20, 30];
 arr[1] = 25;
 
-console.log(arr); // [10,25,30]
+console.log(arr2); // [10,25,30]
 
 
 
