@@ -20,21 +20,24 @@ console.log(matrix[1][0]); // 3
 //// Dynamic Array (Resizable)
 
 
-let arr = [1, 2, 3];
+let arr2 = [1, 2, 3];
 arr.push(4); // add
 arr.pop();   // remove
 
-console.log(arr); // [1,2,3]
+console.log(arr2); // [1,2,3]
 
 
 //// Sparse Array
 
-let arr = [];
+let arr1 = [];
 arr[0] = 10;
 arr[5] = 50;
 
-console.log(arr.length); // 6
+console.log(arr1.length); // 6
 
 
+//// Typed Array (Advanced JS concept)
+let typedArr = new Int32Array([1, 2, 3]);
+console.log(typedArr);
 
 
