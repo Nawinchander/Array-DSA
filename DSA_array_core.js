@@ -40,6 +40,33 @@ function linearSearch(arr, target) {
 console.log(linearSearch([10, 20, 30], 20)); // 1
 
 
+//// Binary search (Sorted Array)
+
+function binarySearch(arr, target) {
+  let left = 0, right = arr.length - 1;
+
+  while (left <= right) {
+    let mid = Math.floor((left + right) / 2);
+
+    if (arr[mid] === target) return mid;
+    else if (arr[mid] < target) left = mid + 1;
+    else right = mid - 1;
+  }
+
+  return -1;
+}
+
+console.log(binarySearch([10, 20, 30, 40], 30)); // 2
+
+
+
+//// Updating
+
+let arr = [10, 20, 30];
+arr[1] = 25;
+
+console.log(arr); // [10,25,30]
+
 
 
 
