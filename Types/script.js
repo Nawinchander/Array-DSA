@@ -61,7 +61,7 @@ console.log(arr4);
 ///// Dynamic Array
 
 
-let arr = [];
+let arr9 = [];
 
 arr.push(10);
 arr.push(20);
@@ -76,7 +76,7 @@ console.log(arr); // [10, 20]
 
 //// Sparse Array
 
-let arr = [];
+let arr8 = [];
 arr[0] = 10;
 arr[5] = 50;
 
@@ -122,7 +122,7 @@ console.log(c.get(0)); // 20
 
 //// Prefix Sum Array (Important for DSA)
 
-let arr = [1, 2, 3, 4, 5];
+let arr7 = [1, 2, 3, 4, 5];
 let prefix = [arr[0]];
 
 for (let i = 1; i < arr.length; i++) {
